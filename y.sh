@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Read-only reconnaissance of an application repository, to design an E2E test framework for it.
-#
+#REDACT_WORDS="cytiva|danaher|gehealthcare|ge healthcare|gehc|pall|akta|äkta|ÄKTA|unicorn|biacore|whatman|hyclone|amersham|xcellerex" bash search.sh XXX > ~/recon.txt
 # Prints counts, dependency versions, config KEYS and short matched fragments only. It never
 # prints config values from environment files and never modifies the repository. Everything it
 # prints goes through a redaction filter (URLs, hosts, e-mails, GUIDs, IPs, your own words).
